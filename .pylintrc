@@ -135,7 +135,7 @@ logging-modules=logging
 bad-functions=map,filter,input
 
 # Good variable names which should always be accepted, separated by a comma
-good-names=i,j,k,ex,Run,_
+good-names=i,j,k,m,n,x,y,z,ix,iy,iz,cx,cy,cz,ex,Run,_
 
 # Bad variable names which should always be refused, separated by a comma
 bad-names=foo,bar,baz,toto,tutu,tata
@@ -338,7 +338,7 @@ max-returns=6
 max-branches=12
 
 # Maximum number of statements in function / method body
-max-statements=50
+max-statements=40
 
 # Maximum number of parents for a class (see R0901).
 max-parents=7
