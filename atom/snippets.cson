@@ -21,6 +21,9 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 '.source.python':
+  'ipdb':
+    'prefix': 'ipdb'
+    'body': 'import ipdb; ipdb.set_trace()'
   'scaffolding':
     'prefix': 'sca'
     'body': '''
